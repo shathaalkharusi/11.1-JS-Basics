@@ -7,7 +7,7 @@
 function calculateTotal(price, quantity, discountPercent) {
   const discount = price * (discountPercent / 100);
   const total = (price - discount) * quantity;
-  return total
+  return total;
 
 }
 
