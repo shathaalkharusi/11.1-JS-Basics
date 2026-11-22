@@ -5,7 +5,11 @@
 // - factorial(0) is 1.
 
 function factorial(n) {
-  // your code
+  let result= 1;
+  for(let i = 1; i<=n; i++){
+    result=result * i;
+  }
+  return result;
 }
 
 // Expected output:

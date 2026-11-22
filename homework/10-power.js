@@ -5,7 +5,11 @@
 // - Any number to the power of 0 is 1.
 
 function power(base, exponent) {
-  // your code
+  let result = 1;
+  for( let i = 0; i < exponent; i++){
+    result = result *  base;
+  }
+  return result;
 }
 
 // Expected output:
